@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f26d6d;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #f7a5d0;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-heading {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.blog-post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(239, 81, 81, 0.749);
+    margin: 20px 0;
+}
+
+.blog-post img {
+    width: 100%;
+    max-width: 600px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer; 
+    transition: transform 0.3s;
+}
+
+.blog-post img:hover {
+    transform: scale(1.2,1.2); 
+}
+
+
+.text-content {
+    padding: 20px;
+}
+
+.text-content h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.text-content p {
+    color: #666;
+    font-size: 16px;
+}
+
+.simple-btn a {
+    background-color: #f7a5d0;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Your other CSS styles */
+
+footer {
+    background-color: #f7a5d0;
+    color: #fff;
+    text-align: center;
+    padding:  0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Additional styling as needed */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Media queries for responsiveness can be added here */
